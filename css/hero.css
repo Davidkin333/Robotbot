@@ -1,0 +1,17 @@
+section.hero{
+    padding: 65px 20px 115px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & h1 {
+        font-size: 73px;
+        line-height: 1.1;
+        margin-bottom: 50px;
+    }  
+    & p  {
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    
+}

@@ -1,0 +1,10 @@
+section.info{
+    padding-block: 40px;
+    text-align: center;
+    color: white;
+    & h2{
+        margin-bottom: 20px;
+        color: #66dafd;
+
+    }
+}

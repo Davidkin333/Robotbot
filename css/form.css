@@ -1,0 +1,94 @@
+section.form{
+    margin-block: 100px;
+    & .inner{
+        box-shadow: 0 4px 10px 3px black;
+        
+    }
+    
+    .header {
+        background: linear-gradient(269deg, #13d4e8, #e9fdff);
+        background-size: 400% 400%;
+        display: flex;
+        
+        animation: FormHeaderGradient 5s ease infinite;
+        & p{
+            text-align: center;
+            flex-grow: 1;
+            font-size: 2rem;
+        }
+        & button{
+            font-size: 2rem;    
+            background-color: white;
+            width: 45px;
+        }
+    }
+    & form{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        padding-bottom: 2rem;
+        gap: 1rem;
+        & button {
+            border-radius: 5px;
+            padding: 10px 20px;
+            background: linear-gradient(269deg, #13d4e8, #e9fdff);
+            background-size: 400% 400%;
+            animation: FormHeaderGradient 5s ease infinite;
+            align-self: center;
+            margin-top: 1rem;
+          }
+    }
+    & .nickname-inputs{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; 
+        & input{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.503) ;
+            line-height: 2;
+            transition: border-color 0.3s;
+            &:focus-visible{
+                border-color: white;
+            }
+        }
+    }
+    & .gender-inputs{
+        all: unset;
+        & legend{
+            margin-bottom: 0.5rem;
+
+        }
+        & input{
+            margin-right: 0.25rem;
+        }
+        & label{
+            margin-right: 0.5rem    ;
+        }
+    }
+    & textarea{
+        & input{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.503) ;
+            line-height: 2;
+            transition: border-color 0.3s;
+            &:focus-visible{
+                border-color: white;
+            }
+    }
+   
+    }
+
+    
+    
+}
+@keyframes FormHeaderGradient {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}

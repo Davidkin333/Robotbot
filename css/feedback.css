@@ -1,0 +1,42 @@
+section.feedback{
+
+    & h2{
+        margin-bottom: 20px;
+        color: #66dafd;
+        text-align: center;
+
+    }
+    & .inner{
+        box-shadow: 0 4px 10px 3px black;
+        padding: 30px;
+        & h3{
+            text-align: center;
+            color: #66dafd;
+            
+        }
+        & hr{
+            margin-block: 20px;
+            max-width: 100px;
+            margin-inline: auto;
+        }
+        & button{
+            background-color: #66dafd;
+            width: 100%;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & .text{
+                color: white;
+                font-size: 1.5em;
+            }
+            & .btn{
+                background-color: black;
+                color: white;
+                line-height: 2.5em;
+                padding-inline: 2.5em;
+            
+            }
+        }
+    }
+}

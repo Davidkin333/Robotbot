@@ -1,0 +1,26 @@
+section.advantages{
+    padding-block: 100px;
+
+
+    & .card{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #66dafd;
+        flex: 1 1 25%;
+        text-align: center;
+        gap: 20px;
+        font-weight: 500;
+        & img{
+            height: 100px;
+            width: auto;
+        }
+    }
+    & .cards-block{
+        display: flex;
+        
+        
+    }
+}
+
